@@ -2,7 +2,7 @@ title:            Cross-Platform-Blog.de
 description:      Node.js, Electron, Cordova and JavaScript
 
 # put your disqus here
-disqus_shortname: cross-platform-blog-com
+disqus_shortname: cross-platform-blog-de
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/logo.png # logo visible in the topbar
@@ -70,7 +70,7 @@ social:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-89852203-1
+google_analytics: UA-89856335-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
