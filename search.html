@@ -1,0 +1,28 @@
+---
+layout: home
+title: Suche
+comments: false
+---
+
+<article>
+  <div style="text-align: center">
+    <h3>Suche nach einem Post:</h3>
+    <input type="text" id="search-input"/>
+  </div>
+  <h3>Ergebnisse:</h3>
+	<ul id="results-container">
+	</ul>
+</article><!-- /.hentry -->
+
+<script type="text/javascript">
+
+  window.onload = function(){
+    new SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '{{site.url}}/search.json',
+      searchResultTemplate: '<li class="entry-title"><a href="{url}" title="{title}">{title}</a></li>'
+    });
+  }
+
+</script>
