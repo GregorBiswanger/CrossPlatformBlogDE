@@ -11,11 +11,11 @@ image:
 
 Die kostenfreie Entwicklungsumgebung Visual Studio Code von Microsoft, bietet eine hervorragende Unterstützung von TypeScript und die Entwicklung von Node.js-Projekten. Dieser Blog-Post zeigt, wie einfach ein neues Node.js-Projekt mit TypeScript-Support erzeugt wird. Gegen Ende wird auch ein kleines „Hallo Welt“-Beispiel im Debug-Modus durchlaufen.  
   
-Für das Beispiel werden folgende Installationen benötigt:
-* [Node.js - http://www.nodejs.org](http://www.nodejs.org "www.nodejs.org"){:target="_blank"} (Läuft auf Windows, Mac und Linux)
-* TypeScript  
-  In der Konsole `npm install typescript –g` eingeben
-* [Visual Studio Code - http://code.visualstudio.com](http://code.visualstudio.com "http://code.visualstudio.com"){:target="_blank"} (Läuft auf Windows, Mac und Linux)  
+Für das Beispiel werden folgende Installationen benötigt:  
+- [Node.js - http://www.nodejs.org](http://www.nodejs.org "www.nodejs.org"){:target="_blank"} (Läuft auf Windows, Mac und Linux)  
+- TypeScript  
+  In der Konsole `npm install typescript –g` eingeben  
+- [Visual Studio Code - http://code.visualstudio.com](http://code.visualstudio.com "http://code.visualstudio.com"){:target="_blank"} (Läuft auf Windows, Mac und Linux)  
   
 ## Ein neues Projekt
 Für ein neues Projekt wird nur ein neues Verzeichnis benötigt. In Visual Studio Code wird dieses im Menü über `File | Open Folder…` geöffnet. Als Projektdatei wird die packages.json-Datei benötigt. Dazu wird in der Konsole `npm init -y` eingetippt (In VSCode unter Windows `[Strg] + [ö]` die integrierte Konsole öffnen).
