@@ -47,7 +47,7 @@ Für einen geeigneten Node.js-Support mit TypeScript, wird eine Compiler-Konfigu
 **Watch**: Damit nicht vor jedem Debugging der TypeScript-Compiler gestartet werden muss, hilft die Watch-Option. Diese beobachtet alle TypeScript-Dateien auf Änderungen. Sollte sich eine Datei ändern, so wird automatisch der Compiler aktiv. So reicht es aus, dass nur einmalig der Compiler gestartet werden muss.  
   
 ## Das erste Node.js „Hello World“
-Jetzt legen wir eine index.ts-Datei an. Dazu wird folgender Code für ein „Hello World“ Beispiel benötigt:  
+Jetzt legen wir eine **index.ts**-Datei an. Dazu wird folgender Code für ein „Hello World“ Beispiel benötigt:  
   
 {% highlight javascript %}
 import http = require('http');
@@ -64,7 +64,7 @@ Ab Zeile 3 wird bereits ein Web-Server erzeugt. Beim Aufruf wird die anonyme Fun
 Mit der `listen`-Funktion wird der aktuelle Web-Server für den definierten Port aktiv. Das war es auch schon.
   
 ## TypeScript Compiler starten über Visual Studio Code
-Die TypeScript-Datei wurde geschrieben, allerdings wird ja eine JavaScript-Datei zum Ausführen benötigt. Mit der Tastenkombination `[Strg] + [b]` wird Visual Studio Code zum Builden aufgefordert. Alternativ kann auch die Command-Line mit `[F1]` geöffnet werden und man Tippt `Build` ein. Nun weiß Visual Studio Code nicht, was genau es machen soll. So erfolgt eine Anfrage, was genau man möchte. Hierbei wählen wir `TypeScript – tsconfig.json` aus.   
+Die TypeScript-Datei wurde geschrieben, allerdings wird ja eine JavaScript-Datei zum Ausführen benötigt. Mit der Tastenkombination `[Strg] + [Shift] + [b]` wird Visual Studio Code zum Builden aufgefordert. Alternativ kann auch die Command-Line mit `[F1]` geöffnet werden und man Tippt `Build` ein. Nun weiß Visual Studio Code nicht, was genau es machen soll. So erfolgt eine Anfrage, was genau man möchte. Hierbei wählen wir `TypeScript – tsconfig.json` aus.   
   
 <figure>
 	<a href="/images/02/vscode-no-task-runner-configured.jpg"><img src="/images/02/vscode-no-task-runner-configured.jpg" alt="Visual Studio Code - No task runner configured"></a>
@@ -75,7 +75,7 @@ Die TypeScript-Datei wurde geschrieben, allerdings wird ja eine JavaScript-Datei
 </figure>
 
 
-Es wird ein neues Verzeichnis mit `.vscode` erzeugt und eine tasks.json-Datei angelegt. Das angenehme an diesem Template ist, dass bereits alle relevanten Einstellungen hinterlegt sind. So können wir diese Datei wieder schließen und rufen wiederholt den Build-Vorgang mit `[Strg] + [b]` auf. Links unten sehen wir ein rotierendes Zeichen und im File-Explorer sehen wir zwei neue Dateien zu unserer TypeScript-Datei. Einmal die generierte JavaScript-Datei und die SourceMap-Datei, die für das Debuggen nötig ist.
+Es wird ein neues Verzeichnis mit `.vscode` erzeugt und eine tasks.json-Datei angelegt. Das angenehme an diesem Template ist, dass bereits alle relevanten Einstellungen hinterlegt sind. So können wir diese Datei wieder schließen und rufen wiederholt den Build-Vorgang mit `[Strg] + [Shift] + [b]` auf. Links unten sehen wir ein rotierendes Zeichen und im File-Explorer sehen wir zwei neue Dateien zu unserer TypeScript-Datei. Einmal die generierte JavaScript-Datei und die SourceMap-Datei, die für das Debuggen nötig ist.
   
 ## Debuggen der Node.js-Anwendung
 Zum Ausführen der Anwendung gibt es unterschiedliche Möglichkeiten. Eine Möglichkeit ist es, unabhängig von Visual Studio Code über die Konsole mit `node index.js` zu starten. Nur haben wir hierbei keinen Debugging-Komfort. Deshalb nutzen wir die zweite Variante: In Visual Studio Code einfach die `[F5]`-Taste zum Debuggen drücken. Auch hier weiß Visual Studio Code erstmal nicht, was er Ausführen soll. Wir wählen hierbei das `node.js`-Template
