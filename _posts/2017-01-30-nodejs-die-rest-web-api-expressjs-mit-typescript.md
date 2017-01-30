@@ -66,7 +66,7 @@ app.get('/api/sayhello/:name', (request, response) => {
 });
 {% endhighlight %}
   
-In Visual Studio Code den TypeScript-Compiler starten `[strg] + [shift] + [b]`, falls dieser noch nicht läuft. Als nächsten die Anwendung mit `[F5]` ausführen. Anschließend im Browser **http://localhost:3000/api/sayhello/John** eingeben.
+In Visual Studio Code den TypeScript-Compiler starten `[strg] + [shift] + [b]`, falls dieser noch nicht läuft. Als nächstes die Anwendung mit `[F5]` ausführen. Anschließend im Browser **http://localhost:3000/api/sayhello/John** eingeben.
 Der Web-Service sollte nun folgenden JSON-Wert zurückliefern:  
   
 {% highlight json %}
@@ -102,7 +102,7 @@ app.get('/api/sayhello/', (request, response) => {
 });
 {% endhighlight %}
   
-Als nächsten die Anwendung mit `[F5]` ausführen. Anschließend im Browser **http://localhost:3000/api/sayhello?name=NodeJS** eingeben.
+Als nächstes die Anwendung mit `[F5]` ausführen. Anschließend im Browser **http://localhost:3000/api/sayhello?name=NodeJS** eingeben.
   
 ## Die Post-Aktion
 POST-Aktion mittels `post`-Funktion hinterlegen. Damit allerdings reguläre Form-Submit POST-Anfragen verarbeitet werden können, sind noch zwei weitere Pakete zur Installation notwendig:    
