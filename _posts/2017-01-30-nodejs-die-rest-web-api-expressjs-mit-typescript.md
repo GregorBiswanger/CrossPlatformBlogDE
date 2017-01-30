@@ -18,7 +18,7 @@ Bei Node.js hat sich ein Web Application Framework stark durchgesetzt: Express.j
 - Session Support  
 - Static Files Support  
 - Middleware  
-..- Zum Beispiel Funktionen, die sich zwischen Request und Response hängen können (Logger etc.)  
+  - Zum Beispiel Funktionen, die sich zwischen Request und Response hängen können (Logger etc.)  
 -	Und vieles mehr…  
 <!-- more -->  
   
