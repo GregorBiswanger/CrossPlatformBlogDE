@@ -2,7 +2,7 @@
 layout: post
 title: "Node.js: Die REST Web-API Express.js mit TypeScript"
 description: "Bei Node.js hat sich ein Web Application Framework stark durchgesetzt: Express.js."
-modified: 2017-27-01
+modified: 2017-30-01
 tags: [VSCode, TypeScript, Nodejs, Expressjs, REST, Web-Service]
 categories: [Nodejs, TypeScript]
 image:
