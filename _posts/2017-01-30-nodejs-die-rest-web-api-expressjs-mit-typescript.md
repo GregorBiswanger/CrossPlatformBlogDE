@@ -147,7 +147,7 @@ Zum Testen eignet sich das Tool [Postman](https://www.getpostman.com "Postman"){
 	<a href="/images/03/postman-post.jpg"><img src="/images/03/postman-post.jpg" alt="Post-Anfrage mit Postman"></a>
 </figure>
   
-Jetzt auf den Send-Button klicken und direkt darunter erscheinen die Response-Daten.  
+Jetzt auf den Send-Button klicken und direkt darunter erscheinen die Response-Daten. Die Post-Anfrage kann direkt in Visual Studio Code gedebuggt werden.  
   
 <figure>
 	<a href="/images/03/vscode-expressjs-debugging.jpg"><img src="/images/03/vscode-expressjs-debugging.jpg" alt="Post-Anfrage mit Visual Studio Code debuggen"></a>
