@@ -10,6 +10,7 @@ image:
 ---
 
 Die kostenfreie Entwicklungsumgebung Visual Studio Code von Microsoft, bietet eine hervorragende Unterstützung von TypeScript und die Entwicklung von Node.js-Projekten. Dieser Blog-Post zeigt, wie einfach ein neues Node.js-Projekt mit TypeScript-Support erzeugt wird. Gegen Ende wird auch ein kleines „Hallo Welt“-Beispiel im Debug-Modus durchlaufen.  
+  <!-- more -->
   
 Für das Beispiel werden folgende Installationen benötigt:  
 - [Node.js - http://www.nodejs.org](http://www.nodejs.org "www.nodejs.org"){:target="_blank"} (Läuft auf Windows, Mac und Linux)  

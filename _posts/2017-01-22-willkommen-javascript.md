@@ -12,7 +12,7 @@ image:
 ---
 
 …und die konnte ich schon seit über drei Jahren mit JavaScript kennenlernen. Der Schritt war nicht wirklich einfach für mich. Nach über zehn Jahren, als erfahrener .NET Experte, einfach mal den Fokus zu wechseln. Meine ersten Schritte als Entwickler in der Berufswelt ging ich mit PHP. JavaScript war damals nur ein Mittel zum Zweck. Ich war froh, wenn ich so wenig wie möglich davon nutzen musste.  
-
+<!-- more -->  
 Als spannende und ideale Plattform beflügelte mich dann .NET und C#. Zugegeben, ein paar Jahre dazwischen legte ich mit Visual Basic einen Pfad in die Windows-Entwicklung, war aber nicht wirklich glücklich damit geworden.
 Microsoft mit .NET begeisterte mich so intensiv, dass ich in [Ingolstadt](http://www.indot.net "INdotNET"){:target="_blank"} eine großartige Community aufbaute. Ich war international auf anderen Communities und Konferenzen unterwegs und hielt Vorträge zu meinen Erfahrungen. Ich startete die größten Community Roadshows mit mehreren tausend Besuchern. Dann schrieb ich Bücher und Artikel für Fachmagazine. Kurz gesagt, ich habe mir einen Namen mit toller Karriere bei der Microsoft Dev Welt aufgebaut.  
 
