@@ -4,7 +4,7 @@ title: "JavaScript Coding Dojo: Der DictionaryReplacer Kata"
 description: "Bei diesem Kata handelt es sich um einen einfachen String-Replacer."
 modified: 2017-03-02
 tags: [TDD, BDD, Jasmine, VSCode, TypeScript, Nodejs, Debugging]
-categories: [Coding Dojo Katas]
+categories: [Coding-Dojo-Katas]
 image:
     feature: /JavaScript-Coding-Dojo-cover.jpg
 ---
