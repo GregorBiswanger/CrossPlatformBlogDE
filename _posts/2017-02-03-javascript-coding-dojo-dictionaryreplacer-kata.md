@@ -27,7 +27,7 @@ input : "\$temp\$ here comes the name \$name\$", dict ["temp", "temporary"] ["na
   
   
 ## Vorbereitungen für den Start
-Für das Projekt wird folgendes benötigt:
+Für das Projekt wird folgendes benötigt:  
 - [Node.js](http://www.nodejs.org "www.nodejs.org"){:target="_blank"} (Läuft auf Windows, Mac und Linux)  
 - TypeScript  
   In der Konsole `npm install typescript –g` eingeben  
